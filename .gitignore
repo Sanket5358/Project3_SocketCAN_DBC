@@ -1,0 +1,10 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Generated executable
+*.o
+
+# OS/editor files
+.DS_Store
