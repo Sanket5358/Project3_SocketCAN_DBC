@@ -1,5 +1,5 @@
 
-Project 3 — AI-Assisted DBC Generation and CAN Data Visualization Using SocketCAN
+Project — AI-Assisted DBC Generation and CAN Data Visualization Using SocketCAN
 
 A Linux-based automotive CAN communication project demonstrating how raw CAN frames are generated through SocketCAN, interpreted using a DBC database, decoded with cantools, and displayed as meaningful vehicle engineering values.
 1. Project Overview
@@ -554,4 +554,4 @@ Author
 
 Sanket Chavan
 Electronics and Telecommunication Engineering
-Project 3 — AI-Assisted DBC Generation and CAN Data Visualization Using SocketCAN
+Project — AI-Assisted DBC Generation and CAN Data Visualization Using SocketCAN
