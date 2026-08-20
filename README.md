@@ -760,62 +760,89 @@ Project: AI-Assisted DBC Generation and CAN Data Visualization Using SocketCAN
 
 Technology: C, Python, Linux SocketCAN, vcan0, DBC, cantools
 cd ~/Project3_SocketCAN_DBC
+---# Project Evidence and Screenshots
+
+The following screenshots provide execution evidence for the SocketCAN communication, CAN traffic, DBC generation, DBC validation, signal decoding, visualization, DBC modification, and AI-assisted development activities.
+
 ---
-
-# Project Evidence and Screenshots
-
-The following screenshots provide execution evidence for the SocketCAN, DBC generation, validation, decoding, visualization, and AI-assisted development tasks.
 
 ## 1. Virtual CAN Interface Setup
 
-<img src="https://raw.githubusercontent.com/Sanket5358/Project3_SocketCAN_DBC/main/screenshots/1_vcan0_setup.png" alt="vCAN0 Setup" width="900">
+<img src="https://raw.githubusercontent.com/Sanket5358/Project3_SocketCAN_DBC/main/screenshots/1_vcan0_setup.png" width="100%" alt="Virtual CAN Interface Setup">
+
+---
 
 ## 2. Project Build
 
-<img src="https://raw.githubusercontent.com/Sanket5358/Project3_SocketCAN_DBC/main/screenshots/2_project_build.png" alt="Project Build" width="900">
+<img src="https://raw.githubusercontent.com/Sanket5358/Project3_SocketCAN_DBC/main/screenshots/2_project_build.png" width="100%" alt="Project Build">
+
+---
 
 ## 3. CAN Transmitter
 
-<img src="https://raw.githubusercontent.com/Sanket5358/Project3_SocketCAN_DBC/main/screenshots/3_can_transmitter.png" alt="CAN Transmitter" width="900">
+<img src="https://raw.githubusercontent.com/Sanket5358/Project3_SocketCAN_DBC/main/screenshots/3_can_transmitter.png" width="100%" alt="CAN Transmitter">
+
+---
 
 ## 4. Raw CAN Traffic
 
-<img src="https://raw.githubusercontent.com/Sanket5358/Project3_SocketCAN_DBC/main/screenshots/08a_raw_vs_decoded.png" alt="Raw CAN Traffic" width="900">
+<img src="https://raw.githubusercontent.com/Sanket5358/Project3_SocketCAN_DBC/main/screenshots/08a_raw_vs_decoded.png" width="100%" alt="Raw CAN Traffic">
+
+---
 
 ## 5. DBC File
 
-<img src="https://raw.githubusercontent.com/Sanket5358/Project3_SocketCAN_DBC/main/screenshots/5_dbc_file.png" alt="DBC File" width="900">
+<img src="https://raw.githubusercontent.com/Sanket5358/Project3_SocketCAN_DBC/main/screenshots/5_dbc_file.png" width="100%" alt="DBC File">
+
+---
 
 ## 6. DBC Validation
 
-<img src="https://raw.githubusercontent.com/Sanket5358/Project3_SocketCAN_DBC/main/screenshots/6_dbc_validation.png" alt="DBC Validation" width="900">
+<img src="https://raw.githubusercontent.com/Sanket5358/Project3_SocketCAN_DBC/main/screenshots/6_dbc_validation.png" width="100%" alt="DBC Validation">
+
+---
 
 ## 7. DBC Decoded Dashboard
 
-<img src="https://raw.githubusercontent.com/Sanket5358/Project3_SocketCAN_DBC/main/screenshots/7_dashboard.png" alt="DBC Decoded Dashboard" width="900">
+<img src="https://raw.githubusercontent.com/Sanket5358/Project3_SocketCAN_DBC/main/screenshots/7_dashboard.png" width="100%" alt="DBC Decoded Dashboard">
+
+---
 
 ## 8. Raw CAN vs Decoded Data
 
-<img src="https://raw.githubusercontent.com/Sanket5358/Project3_SocketCAN_DBC/main/screenshots/08_raw_vs_decoded.png" alt="Raw CAN vs Decoded Data" width="900">
+<img src="https://raw.githubusercontent.com/Sanket5358/Project3_SocketCAN_DBC/main/screenshots/08_raw_vs_decoded.png" width="100%" alt="Raw CAN vs Decoded Data">
+
+---
 
 ## 9. DBC Modification
 
-<img src="https://raw.githubusercontent.com/Sanket5358/Project3_SocketCAN_DBC/main/screenshots/09_dbc_modification.png" alt="DBC Modification" width="900">
+<img src="https://raw.githubusercontent.com/Sanket5358/Project3_SocketCAN_DBC/main/screenshots/09_dbc_modification.png" width="100%" alt="DBC Modification">
+
+---
 
 ## 10. Ambient Temperature Signal
 
-<img src="https://raw.githubusercontent.com/Sanket5358/Project3_SocketCAN_DBC/main/screenshots/10a_ambient_temperature.png" alt="Ambient Temperature Signal" width="900">
+<img src="https://raw.githubusercontent.com/Sanket5358/Project3_SocketCAN_DBC/main/screenshots/10a_ambient_temperature.png" width="100%" alt="Ambient Temperature Signal">
+
+---
 
 ## 11. AI-Assisted DBC Generation
 
-<img src="https://raw.githubusercontent.com/Sanket5358/Project3_SocketCAN_DBC/main/screenshots/11_ai_dbc_generation.png" alt="AI-Assisted DBC Generation" width="900">
+<img src="https://raw.githubusercontent.com/Sanket5358/Project3_SocketCAN_DBC/main/screenshots/11_ai_dbc_generation.png" width="100%" alt="AI-Assisted DBC Generation">
+
+---
 
 ## 12. AI DBC Review
 
-<img src="https://raw.githubusercontent.com/Sanket5358/Project3_SocketCAN_DBC/main/screenshots/12_ai_dbc_review.png" alt="AI DBC Review" width="900">
+<img src="https://raw.githubusercontent.com/Sanket5358/Project3_SocketCAN_DBC/main/screenshots/12_ai_dbc_review.png" width="100%" alt="AI DBC Review">
+
+---
 
 ## 13. Overall CAN Traffic
 
-<img src="https://raw.githubusercontent.com/Sanket5358/Project3_SocketCAN_DBC/main/screenshots/10_overall_can_traffic.png" alt="Overall CAN Traffic" width="900">
+<img src="https://raw.githubusercontent.com/Sanket5358/Project3_SocketCAN_DBC/main/screenshots/10_overall_can_traffic.png" width="100%" alt="Overall CAN Traffic">
 
 ---
+
+
+
