@@ -854,3 +854,56 @@ Your screenshot section is:
 Important: Paste it into GitHub without putting the README inside another code block. Then click Preview changes. The screenshots should appear as large images at the bottom.
 
 If you want, I can also give you a shorter, professional GitHub README like your Battery Monitoring project, with the screenshots large at the end and less unnecessary text.
+# Project Evidence and Screenshots
+
+## 1. Virtual CAN Interface Setup
+
+![vCAN0 Setup](screenshots/1_vcan0_setup.png)
+
+## 2. Project Build
+
+![Project Build](screenshots/2_project_build.png)
+
+## 3. CAN Transmitter
+
+![CAN Transmitter](screenshots/3_can_transmitter.png)
+
+## 4. Raw CAN Traffic
+
+![Raw CAN Traffic](screenshots/08a_raw_vs_decoded.png)
+
+## 5. DBC File
+
+![DBC File](screenshots/5_dbc_file.png)
+
+## 6. DBC Validation
+
+![DBC Validation](screenshots/6_dbc_validation.png)
+
+## 7. DBC Decoded Dashboard
+
+![Dashboard](screenshots/7_dashboard.png)
+
+## 8. Raw CAN vs Decoded Data
+
+![Raw vs Decoded](screenshots/08_raw_vs_decoded.png)
+
+## 9. DBC Modification
+
+![DBC Modification](screenshots/09_dbc_modification.png)
+
+## 10. Ambient Temperature Signal
+
+![Ambient Temperature](screenshots/10a_ambient_temperature.png)
+
+## 11. AI-Assisted DBC Generation
+
+![AI DBC Generation](screenshots/11_ai_dbc_generation.png)
+
+## 12. AI DBC Review
+
+![AI DBC Review](screenshots/12_ai_dbc_review.png)
+
+## 13. Overall CAN Traffic
+
+![Overall CAN Traffic](screenshots/10_overall_can_traffic.png)
