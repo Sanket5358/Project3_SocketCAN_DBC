@@ -875,7 +875,9 @@ sudo apt install can-utils
 The following screenshots provide execution evidence for the SocketCAN communication, CAN traffic, DBC generation, DBC validation, signal decoding, visualization, DBC modification, Ambient Temperature addition, and AI-assisted development.
 
 35.1 Virtual CAN Interface Setup
-<img src="https://raw.githubusercontent.com/Sanket5358/Project3_SocketCAN_DBC/main/screenshots/1_vcan0_setup.png" width="100%" alt="Virtual CAN Interface Setup">
+
+<img width="1102" height="229" alt="1_vcan0_setup" src="https://github.com/user-attachments/assets/eb8369fe-050d-47a5-b185-bf9668262323" />
+
 35.2 Project Build
 <img src="https://raw.githubusercontent.com/Sanket5358/Project3_SocketCAN_DBC/main/screenshots/2_project_build.png" width="100%" alt="Project Build">
 35.3 CAN Transmitter
