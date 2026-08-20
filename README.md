@@ -1,3 +1,117 @@
+
+# Project Evidence and Screenshots
+
+The following screenshots provide evidence of the complete SocketCAN, DBC, CAN decoding, dashboard, DBC modification, Ambient Temperature, and AI-assisted development workflow.
+
+---
+
+## 1. Virtual CAN Interface Setup
+
+![vCAN0 Setup](https://raw.githubusercontent.com/Sanket5358/Project3_SocketCAN_DBC/main/screenshots/1_vcan0_setup.png)
+
+---
+
+## 2. Project Build
+
+![Project Build](https://raw.githubusercontent.com/Sanket5358/Project3_SocketCAN_DBC/main/screenshots/2_project_build.png)
+
+---
+
+## 3. CAN Transmitter
+
+![CAN Transmitter](https://raw.githubusercontent.com/Sanket5358/Project3_SocketCAN_DBC/main/screenshots/3_can_transmitter.png)
+
+---
+
+## 4. Raw CAN Traffic
+
+![Raw CAN Traffic](https://raw.githubusercontent.com/Sanket5358/Project3_SocketCAN_DBC/main/screenshots/08a_raw_vs_decoded.png)
+
+---
+
+## 5. DBC File
+
+![DBC File](https://raw.githubusercontent.com/Sanket5358/Project3_SocketCAN_DBC/main/screenshots/5_dbc_file.png)
+
+---
+
+## 6. DBC Validation
+
+![DBC Validation](https://raw.githubusercontent.com/Sanket5358/Project3_SocketCAN_DBC/main/screenshots/6_dbc_validation.png)
+
+---
+
+## 7. DBC Decoded Dashboard
+
+![DBC Decoded Dashboard](https://raw.githubusercontent.com/Sanket5358/Project3_SocketCAN_DBC/main/screenshots/7_dashboard.png)
+
+---
+
+## 8. Raw CAN vs Decoded Data
+
+![Raw CAN vs Decoded Data](https://raw.githubusercontent.com/Sanket5358/Project3_SocketCAN_DBC/main/screenshots/08_raw_vs_decoded.png)
+
+---
+
+## 9. DBC Modification
+
+![DBC Modification](https://raw.githubusercontent.com/Sanket5358/Project3_SocketCAN_DBC/main/screenshots/09_dbc_modification.png)
+
+---
+
+## 10. Ambient Temperature Signal
+
+![Ambient Temperature Signal](https://raw.githubusercontent.com/Sanket5358/Project3_SocketCAN_DBC/main/screenshots/10a_ambient_temperature.png)
+
+---
+
+## 11. AI-Assisted DBC Generation
+
+![AI-Assisted DBC Generation](https://raw.githubusercontent.com/Sanket5358/Project3_SocketCAN_DBC/main/screenshots/11_ai_dbc_generation.png)
+
+---
+
+## 12. AI DBC Review
+
+![AI DBC Review](https://raw.githubusercontent.com/Sanket5358/Project3_SocketCAN_DBC/main/screenshots/12_ai_dbc_review.png)
+
+---
+
+## 13. Overall CAN Traffic
+
+![Overall CAN Traffic](https://raw.githubusercontent.com/Sanket5358/Project3_SocketCAN_DBC/main/screenshots/10_overall_can_traffic.png)
+
+---
+
+# Evidence Summary
+
+The screenshots demonstrate:
+
+- Virtual CAN interface setup
+- Project compilation
+- CAN transmitter execution
+- Raw CAN traffic
+- DBC file implementation
+- DBC validation
+- DBC-based signal decoding
+- Real-time dashboard visualization
+- Raw CAN versus decoded data
+- DBC signal modification
+- Ambient Temperature signal addition
+- AI-assisted DBC generation
+- AI-assisted DBC review
+- Overall CAN communication
+
+
+
+
+
+
+
+
+
+
+
 # AI-Assisted DBC Generation and CAN Data Visualization Using SocketCAN
 
 A Linux-based automotive CAN communication project demonstrating how raw CAN frames can be transformed into meaningful engineering values using a DBC (CAN Database).
@@ -22,7 +136,7 @@ Raw hexadecimal data is difficult to understand without information about the si
 
 A DBC file provides the information required to interpret CAN messages and convert raw CAN data into meaningful engineering values.
 
-The complete project workflow is:
+### Complete Workflow
 
 ```text
 Signal Definition
@@ -41,11 +155,12 @@ DBC-Based Decoding
         ↓
 Engineering Values
         ↓
-Visualization2. Problem Statement
+Visualization
+2. Problem Statement
 
 The objective is to design a simple Vehicle Information Network using CAN communication.
 
-The network contains the following signals:
+The network contains the following vehicle signals:
 
 Signal	Unit
 Vehicle Speed	km/h
@@ -54,68 +169,65 @@ Coolant Temperature	°C
 Fuel Level	%
 Battery Voltage	V
 
-An additional signal, Ambient Temperature, is added as part of the challenge task.
+An additional Ambient Temperature signal is added as part of the challenge task.
 
-The CAN messages are transmitted using Linux SocketCAN and decoded using a DBC file.3. Objectives
+The CAN messages are transmitted using Linux SocketCAN and decoded using a DBC file.
+
+3. Objectives
 
 The main objectives of this project are:
 
 Understand the purpose of DBC files.
 Design CAN messages and signals.
-Use AI to assist in DBC generation.
-Validate DBC definitions.
+Generate a DBC using AI assistance.
+Review and validate the DBC.
 Implement CAN communication using Linux SocketCAN.
-Generate realistic vehicle information values.
+Generate vehicle information using C.
 Monitor raw CAN traffic.
-Decode CAN messages using a DBC file.
+Decode CAN messages using the DBC.
 Display decoded engineering values.
 Modify a DBC signal and observe its effect.
 Add Ambient Temperature as a new signal.
-Perform AI-assisted DBC review.
-Visualize the complete CAN communication workflow.
-4. Learning Outcomes
+Perform AI-assisted DBC review.4. Learning Outcomes
 
-After completing this project, the following concepts are demonstrated:
+This project provides practical understanding of:
 
-DBC file structure
-CAN message design
-CAN signal definition
+CAN communication
+CAN frames
 CAN identifiers
+CAN signals
+DBC files
 Start bits
 Signal lengths
 Scaling
 Offset
-Minimum and maximum values
+Signal ranges
 Engineering units
 Linux SocketCAN
 Virtual CAN
-Raw CAN traffic
-DBC decoding
+vcan0
 candump
 cantools
 Python CAN monitoring
 DBC validation
 DBC modification
-AI-assisted engineering workflow
-5. System Description
+AI-assisted engineerin
+Demonstrate the complete CAN communication workflow.5. System Description
 
 The project implements a simple Vehicle Information Network.
 
-The transmitter periodically generates and sends:
+The C transmitter generates vehicle information and sends CAN frames through the virtual CAN interface.
 
-Vehicle Speed       : 0 - 120 km/h
-Engine RPM          : 800 - 5000 rpm
-Coolant Temperature : 20 - 120 °C
-Fuel Level          : 0 - 100 %
-Battery Voltage     : 11 - 15 V
+The main signals are:
 
-The additional challenge signal is:
-
+Vehicle Speed       : km/h
+Engine RPM          : rpm
+Coolant Temperature : °C
+Fuel Level          : %
+Battery Voltage     : V
 Ambient Temperature : °C
 
-The values change during execution to simulate vehicle operation.
-
-6. System Architecture
+The receiver/dashboard decodes the raw CAN data using the DBC database.6. System Architecture
                  +----------------------+
                  |   C CAN Transmitter  |
                  +----------+-----------+
@@ -141,8 +253,7 @@ The values change during execution to simulate vehicle operation.
                                +------------------+
                                         |
                                         v
-                              Engineering Values
-7. Project Directory Structure
+                              Engineering Values7. Project Directory Structure
 Project3_SocketCAN_DBC/
 │
 ├── dbc/
@@ -170,18 +281,17 @@ Project3_SocketCAN_DBC/
 │   ├── can_transmitter.c
 │   └── dashboard.py
 │
-├── can_transmitter
-├── Makefile
-└── README.md
-8. DBC File
+├── can_transmitter8. DBC File
 
-The CAN database used in this project is:
+DBC stands for CAN Database.
+
+The project uses:
 
 dbc/vehicle_information.dbc
 
-The DBC file defines the CAN messages and signals used by the Vehicle Information Network.
+The DBC defines the CAN messages and signals required to decode the transmitted CAN frames.
 
-It contains information such as:
+The DBC contains information such as:
 
 CAN Identifier
 Message name
@@ -195,100 +305,80 @@ Offset
 Minimum value
 Maximum value
 Unit
+├── Makefile
+└── README.md9. CAN Signal Design
 
-The DBC file allows raw CAN frames to be decoded into meaningful engineering values.
-
-9. CAN Signal Design
-
-The project contains the following main signals:
+The project contains the following signals:
 
 Signal	Unit	Purpose
 Vehicle Speed	km/h	Vehicle road speed
 Engine RPM	rpm	Engine rotational speed
 Coolant Temperature	°C	Engine coolant temperature
 Fuel Level	%	Remaining fuel
-Battery Voltage	V	Vehicle battery voltage
+Battery Voltage	V	Battery voltage
 Ambient Temperature	°C	External temperature
-
-The complete CAN ID, start bit, signal length, scaling, offset, range, and unit definitions are stored in:
-
-dbc/vehicle_information.dbc
-10. Required Signal Ranges
+10. Signal Ranges
 Signal	Range	Unit
 Vehicle Speed	0 - 120	km/h
 Engine RPM	800 - 5000	rpm
 Coolant Temperature	20 - 120	°C
 Fuel Level	0 - 100	%
-Battery Voltage	11 - 15	V
+Battery Voltage	11 - 15	V11. Why DBC is Required
 
-Ambient Temperature was added as an additional challenge signal.
+A raw CAN frame contains hexadecimal data, but the data does not directly describe the physical signal.
 
-11. What is a DBC File?
+For example:
 
-DBC stands for CAN Database.
+CAN ID : 0x200
+DATA   : XX XX
 
-A DBC file describes how CAN messages and signals are structured.
+Without a DBC, the meaning of these bytes is unknown.
 
-A DBC file tells a CAN tool:
+Using the DBC:
 
-Which CAN ID represents a message
-Which bits contain a signal
-How many bits belong to the signal
-Whether the signal is signed or unsigned
-How raw values are converted
-What physical unit should be displayed
-What the valid signal range is
-
-The relationship is:
-
+Raw CAN Frame
+      ↓
 CAN ID
-   ↓
-CAN Message
-   ↓
-Signal
-   ↓
+      ↓
+DBC Message
+      ↓
+DBC Signal
+      ↓
 Raw Value
-   ↓
+      ↓
 Scaling + Offset
-   ↓
+      ↓
 Engineering Value
-12. Why is a DBC Required?
 
-Without a DBC file, a CAN tool may show only:
+The result can be displayed as:
 
-CAN ID: 0x200
-DATA: XX XX
+Vehicle Speed : XX.X km/h12. AI-Assisted DBC Generation
 
-The meaning of the bytes is not directly known.
+AI was used to assist in the development of the DBC file.
 
-With a DBC file, the same data can be interpreted as:
-
-Vehicle Speed: XX.X km/h
-
-Therefore, a DBC file acts as a database describing the meaning of CAN data.
-
-13. AI-Assisted DBC Development
-
-AI was used to assist in creating and reviewing the DBC file.
-
-AI Tool Used
+AI Tool
 ChatGPT
 
 AI assistance was used for:
 
-DBC syntax generation
-Signal layout suggestions
-Scaling and offset review
+DBC generation
+Signal definition
+CAN ID planning
+Start-bit planning
+Signal length
+Scaling
+Offset
 Range verification
 Unit verification
-Documentation
-DBC validation
 DBC review
-Naming improvements
+Documentation
 
 AI-generated content was reviewed and verified before implementation.
 
-14. Example AI Prompt
+13. AI DBC Generation Prompt
+
+Example prompt:
+
 Generate a valid DBC file for a Vehicle Information Network using
 Linux SocketCAN.
 
@@ -318,30 +408,39 @@ Unit
 
 
 Use realistic automotive engineering values.
+14. AI DBC Review
 
-Another review prompt was:
+The generated DBC was reviewed for:
 
-Review this DBC file for syntax errors, incorrect signal definitions,
-scaling, offsets, ranges, units and possible improvements.
-15. DBC Validation
+Syntax errors
+Incorrect signal definitions
+Incorrect scaling
+Incorrect offsets
+Incorrect ranges
+Incorrect units
+Signal layout
+Naming
+Possible improvements
 
-The DBC file was checked for:
+The final DBC was then tested with actual CAN communication.15. DBC Validation
 
-Syntax correctness
+The DBC was validated against the actual CAN communication.
+
+Validation included:
+
 CAN message definitions
-Signal definitions
 CAN IDs
-Signal ranges
-Scaling factors
-Offsets
+Signal definitions
+Signal lengths
+Scaling
+Offset
+Minimum values
+Maximum values
 Units
-Signal decoding
-Compatibility with the transmitter
-Compatibility with the dashboard
-
-The final DBC was verified through actual SocketCAN communication and decoding.
-
-16. SocketCAN Integration
+Decoded values
+Compatibility with transmitter
+Compatibility with dashboard
+16. Linux SocketCAN
 
 The project uses Linux SocketCAN for CAN communication.
 
@@ -349,18 +448,24 @@ A virtual CAN interface is used:
 
 vcan0
 
-Virtual CAN allows CAN applications to be tested without physical CAN hardware.
+Virtual CAN allows CAN applications to be tested without physical CAN hardware.17. Creating vcan0
 
-17. Setting Up vcan0
+Load the required kernel modules:
+
 sudo modprobe can
 sudo modprobe vcan
+
+Create the virtual CAN interface:
+
 sudo ip link add dev vcan0 type vcan
+
+Bring it up:
+
 sudo ip link set up vcan0
 
 Check the interface:
 
-ip link show vcan0
-18. CAN Transmitter
+ip link show vcan018. CAN Transmitter
 
 The CAN transmitter is implemented in:
 
@@ -368,31 +473,33 @@ src/can_transmitter.c
 
 The transmitter:
 
-Opens a SocketCAN raw CAN socket.
+Opens a SocketCAN raw socket.
 Connects to vcan0.
 Generates vehicle information.
-Encodes the values into CAN data bytes.
+Converts values into CAN signal data.
 Creates CAN frames.
 Sends the frames periodically.
 
 The executable is:
 
 can_transmitter
-19. Building the Project
+19. Building the CAN Transmitter
 
-Example:
+Compile using GCC:
 
 gcc src/can_transmitter.c -o can_transmitter
 
 Run:
 
-./can_transmitter
-
-The transmitter continuously sends CAN messages.
+./can_transmittercan_transmitter
 
 20. Monitoring Raw CAN Traffic
 
-Raw CAN traffic can be monitored using:
+Install can-utils:
+
+sudo apt install can-utils
+
+Monitor CAN traffic:
 
 candump vcan0
 
@@ -403,37 +510,23 @@ vcan0  201   [2]  XX XX
 vcan0  300   [1]  XX
 vcan0  301   [1]  XX
 vcan0  400   [1]  XX
-
-The exact values change during execution.
-
-21. Raw CAN Data vs Decoded Data
+21. Raw CAN vs Decoded Data
 Raw CAN
-CAN ID: 0x200
-DATA: XX XX
-
-Raw hexadecimal bytes do not directly indicate the physical meaning.
-
+CAN ID : 0x200
+DATA   : XX XX
 Decoded CAN
 
-The DBC file converts the raw value into an engineering value:
+The DBC converts the raw data into engineering values:
 
-Vehicle Speed: XX.X km/h
+Vehicle Speed       : XX.X km/h
+Engine RPM          : XXXX rpm
+Coolant Temperature : XX.X °C
+Fuel Level          : XX %
+Battery Voltage     : XX.X V
+Ambient Temperature : XX.X °C
 
-The process is:
+This demonstrates the purpose of the DBC database.
 
-Raw CAN Frame
-      ↓
-CAN ID
-      ↓
-DBC Message
-      ↓
-DBC Signal
-      ↓
-Raw Signal Value
-      ↓
-Scaling + Offset
-      ↓
-Engineering Value
 22. Python Dashboard
 
 The monitoring dashboard is implemented in:
@@ -447,24 +540,28 @@ cantools
 SocketCAN
 DBC database
 
-The dashboard receives CAN frames from vcan0, decodes them using the DBC file, and displays engineering values.
+The dashboard receives CAN frames from vcan0, decodes them using the DBC, and displays the engineering values.
 
 23. Installing cantools
+
+Install the Python DBC library:
+
 python3 -m pip install cantools
 
 If required:
 
 python3 -m pip install --user cantools
 
-Install CAN utilities:
+Check installation:
 
-sudo apt install can-utils
+python3 -c "import cantools; print('cantools installed successfully')"
 24. Running the Dashboard
+
+Run:
+
 python3 src/dashboard.py
 
-The dashboard displays decoded vehicle information.
-
-Example:
+The dashboard displays:
 
 ===============================================
        VEHICLE INFORMATION MONITORING
@@ -484,30 +581,40 @@ DBC Database        : vehicle_information.dbc
 
 
 ===============================================
-25. Signal Monitoring Dashboard
+25. DBC Decoding
 
-The dashboard provides a human-readable representation of the CAN network.
+The decoding process is:
 
-It displays:
+CAN Frame
+    ↓
+CAN ID
+    ↓
+DBC Message
+    ↓
+DBC Signal
+    ↓
+Raw Signal Value
+    ↓
+Scaling
+    ↓
+Offset
+    ↓
+Engineering Value
 
-Vehicle Speed
-Engine RPM
-Coolant Temperature
-Fuel Level
-Battery Voltage
-Ambient Temperature
-26. DBC Modification Challenge
+This allows the dashboard to display human-readable vehicle information.
 
-The assignment requires modifying one DBC signal definition.
+26. DBC Modification
 
-Possible modifications include:
+One of the project challenges is to modify a DBC signal definition.
+
+Possible parameters include:
 
 Scaling
 Offset
 Unit
 Signal length
 
-The same raw CAN data can produce a different displayed engineering value if the DBC definition is changed.
+The same raw CAN data can produce a different engineering value if the DBC definition is changed.
 
 Same Raw CAN Frame
         ↓
@@ -521,41 +628,30 @@ Same Raw CAN Frame
         ↓
 Modified DBC
         ↓
-Different Engineering Value
-27. Adding Ambient Temperature
+Modified Engineering Value
 
-As part of the challenge task, the project adds:
+This demonstrates the importance of correct DBC definitions.
+
+27. Ambient Temperature Signal
+
+An additional signal called:
 
 Ambient Temperature
 
-The new signal is integrated into:
+was added to the project.
+
+The signal is integrated into:
 
 DBC file
 CAN transmitter
+CAN communication
 DBC decoding
 Python dashboard
 Documentation
-28. AI DBC Review
 
-The final DBC was reviewed using AI.
+The decoded value is displayed by the dashboard.
 
-The review checked:
-
-Possible syntax errors
-Incorrect signal definitions
-Incorrect scaling
-Incorrect offsets
-Incorrect ranges
-Incorrect units
-Signal layout
-Naming
-Documentation
-
-The AI suggestions were evaluated before being applied.
-
-Actual SocketCAN communication was used for final verification.
-
-29. Complete Validation Workflow
+28. Complete Validation Workflow
 DBC Design
     ↓
 AI-Assisted Generation
@@ -581,16 +677,16 @@ DBC Decoding
 Python Dashboard
     ↓
 Engineering Values
-30. Demonstration Procedure
+29. Demonstration Procedure
 Step 1 - Start vcan0
 ip link show vcan0
-Step 2 - Start the CAN transmitter
+Step 2 - Start CAN transmitter
 ./can_transmitter
-Step 3 - Monitor raw CAN traffic
+Step 3 - Monitor CAN traffic
 candump vcan0
-Step 4 - Start the dashboard
+Step 4 - Start dashboard
 python3 src/dashboard.py
-Step 5 - Observe decoded values
+Step 5 - Observe decoded signals
 
 Observe:
 
@@ -600,23 +696,23 @@ Coolant Temperature
 Fuel Level
 Battery Voltage
 Ambient Temperature
-Step 6 - Compare raw and decoded data
+Step 6 - Compare raw and decoded values
 
-Compare the candump output with the dashboard values.
+Compare candump output with the dashboard.
 
 Step 7 - Modify the DBC
 
-Change one signal definition and observe the effect.
+Modify one signal definition and observe the effect.
 
 Step 8 - Demonstrate Ambient Temperature
 
-Show the signal in the DBC, transmitter, and dashboard.
+Verify the new signal in the DBC and dashboard.
 
 Step 9 - Demonstrate AI assistance
 
-Show the AI generation and review process.
+Show the AI-assisted DBC generation and review.
 
-31. Technologies Used
+30. Technologies Used
 Technology	Purpose
 C	CAN transmitter
 Python	Monitoring dashboard
@@ -628,8 +724,11 @@ cantools	DBC decoding
 DBC	CAN database
 Git	Version control
 GitHub	Repository
-ChatGPT	AI-assisted DBC development
-32. Software Requirements
+ChatGPT	AI-assisted development
+31. Software Requirements
+
+The project requires:
+
 Ubuntu / Linux
 GCC
 Python 3
@@ -637,105 +736,70 @@ SocketCAN
 can-utils
 cantools
 Git
-33. Assignment Deliverables
-33.1 DBC File
 
-Complete CAN database:
+Install CAN utilities:
 
+sudo apt install can-utils
+
+Install cantools:
+
+python3 -m pip install cantools
+32. Assignment Deliverables
+DBC File
 dbc/vehicle_information.dbc
-33.2 Source Code
-
-CAN transmitter:
-
+CAN Transmitter
 src/can_transmitter.c
-
-Python dashboard:
-
+Python Dashboard
 src/dashboard.py
-33.3 AI Usage Report
+Documentation
 
-The AI-assisted development includes:
+The README documents:
 
-AI tool selected
-Prompts used
-DBC generation
-DBC review
-Corrections performed
-Validation
-Final observations
-33.4 Technical Report
-
-The project documentation includes:
-
-Signal design
-DBC structure
-AI-assisted generation
-DBC validation
-SocketCAN integration
-Raw CAN traffic
+CAN architecture
+DBC design
+Signal definitions
+SocketCAN setup
+CAN transmission
+Raw CAN monitoring
 DBC decoding
-Dashboard visualization
+Dashboard
 DBC modification
-Ambient Temperature signal
-Lessons learned
-34. Challenges Completed
+Ambient Temperature
+AI-assisted DBC generation
+AI-assisted DBC review
+33. Challenges Completed
 Challenge 1 - Raw Data vs Decoded Data
 
 Raw CAN traffic was compared with DBC-decoded engineering values.
 
-Challenge 2 - Modify the DBC
+Challenge 2 - DBC Modification
 
-A DBC signal definition was modified and the effect on the decoded value was observed.
+A DBC signal definition was modified and its effect was observed.
 
-Challenge 3 - Add a New Signal
+Challenge 3 - New Signal
 
-Ambient Temperature was added to the DBC and integrated into the CAN communication and monitoring system.
+Ambient Temperature was added and integrated into the system.
 
 Challenge 4 - AI Review
 
-AI was used to review the DBC for:
+AI was used to review the DBC for syntax, scaling, offset, range, unit, and signal-definition issues.
 
-Errors
-Signal definition problems
-Scaling
-Offset
-Range
-Units
-Naming
-Documentation
-35. Lessons Learned
+34. Lessons Learned
+
+The project demonstrates:
+
 Raw CAN frames contain hexadecimal data.
-The DBC provides the meaning of the data.
+DBC files define the meaning of CAN data.
 Scaling and offset convert raw values into physical values.
 SocketCAN provides a Linux interface for CAN communication.
-vcan0 allows CAN communication to be tested without physical CAN hardware.
-candump is useful for monitoring raw CAN frames.
+vcan0 enables CAN testing without physical hardware.
+candump is useful for monitoring raw CAN traffic.
 cantools provides DBC-based decoding.
 Incorrect DBC definitions can produce incorrect engineering values.
-AI can assist with DBC development and review.
-AI-generated definitions must be verified.
+AI can assist with DBC development.
+AI-generated DBC definitions must be verified.
 Adding a new signal requires updates to the DBC, transmitter, decoder, and visualization.
-36. Complete CAN Workflow
-Signal Definition
-        ↓
-CAN Message Design
-        ↓
-DBC Creation
-        ↓
-AI-Assisted Review
-        ↓
-DBC Validation
-        ↓
-SocketCAN Communication
-        ↓
-Raw CAN Frames
-        ↓
-DBC-Based Decoding
-        ↓
-Engineering Values
-        ↓
-Python Visualization
-37. Conclusion
+35. Conclusion
 
 This project demonstrates an end-to-end automotive CAN communication and DBC decoding workflow using Linux SocketCAN.
 
@@ -757,7 +821,7 @@ DBC decoding
 DBC modification
 Ambient Temperature signal addition
 Real-time signal visualization
-38. Author
+36. Author
 
 Sanket Chavan
 
@@ -765,145 +829,7 @@ Electronics and Telecommunication Engineering
 
 Project: AI-Assisted DBC Generation and CAN Data Visualization Using SocketCAN
 
-39. Repository
-
-GitHub Repository:
-
-https://github.com/Sanket5358/Project3_SocketCAN_DBC
-
-40. Project Evidence and Screenshots
-
-The following screenshots provide visual evidence of the implementation, testing, validation, decoding, visualization, and AI-assisted development.
-
-40.1 Virtual CAN Interface Setup
-
-40.2 Project Build
-
-40.3 CAN Transmitter
-
-40.4 Raw CAN Traffic
-
-40.5 DBC File
-
-40.6 DBC Validation
-
-40.7 DBC Decoded Dashboard
-
-40.8 Raw CAN vs Decoded Data
-
-40.9 DBC Modification
-
-40.10 Ambient Temperature Signal
-
-40.11 AI-Assisted DBC Generation
-
-40.12 AI DBC Review
-
-40.13 Overall CAN Traffic
-
-41. Final Summary
-
-This project demonstrates the complete CAN communication workflow:
-
-CAN Signal Definition
-        ↓
-CAN Message Design
-        ↓
-DBC Database
-        ↓
-AI-Assisted DBC Development
-        ↓
-SocketCAN
-        ↓
-Raw CAN Traffic
-        ↓
-DBC Decoding
-        ↓
-Engineering Signals
-        ↓
-Dashboard Visualization
-
-The project provides practical experience in automotive CAN communication, DBC database development, Linux SocketCAN, CAN signal decoding, visualization, validation, and AI-assisted engineering.
+The transmitter continuously sends CAN messages.
 
 
 
-in above images are seen oe not
-
-Yes. In the README I gave above, the 13 screenshot image links are written in the correct Markdown format:
-
-![vCAN0 Setup](screenshots/1_vcan0_setup.png)
-
-So GitHub should display the images, provided the filenames in your repository exactly match.
-
-Your screenshot section is:
-
-1_vcan0_setup.png ✅
-2_project_build.png ✅
-3_can_transmitter.png ✅
-08a_raw_vs_decoded.png ✅
-5_dbc_file.png ✅
-6_dbc_validation.png ✅
-7_dashboard.png ✅
-08_raw_vs_decoded.png ✅
-09_dbc_modification.png ✅
-10a_ambient_temperature.png ✅
-11_ai_dbc_generation.png ✅
-12_ai_dbc_review.png ✅
-10_overall_can_traffic.png ✅
-
-Important: Paste it into GitHub without putting the README inside another code block. Then click Preview changes. The screenshots should appear as large images at the bottom.
-
-If you want, I can also give you a shorter, professional GitHub README like your Battery Monitoring project, with the screenshots large at the end and less unnecessary text.
-# Project Evidence and Screenshots
-
-## 1. Virtual CAN Interface Setup
-
-![vCAN0 Setup](screenshots/1_vcan0_setup.png)
-
-## 2. Project Build
-
-![Project Build](screenshots/2_project_build.png)
-
-## 3. CAN Transmitter
-
-![CAN Transmitter](screenshots/3_can_transmitter.png)
-
-## 4. Raw CAN Traffic
-
-![Raw CAN Traffic](screenshots/08a_raw_vs_decoded.png)
-
-## 5. DBC File
-
-![DBC File](screenshots/5_dbc_file.png)
-
-## 6. DBC Validation
-
-![DBC Validation](screenshots/6_dbc_validation.png)
-
-## 7. DBC Decoded Dashboard
-
-![Dashboard](screenshots/7_dashboard.png)
-
-## 8. Raw CAN vs Decoded Data
-
-![Raw vs Decoded](screenshots/08_raw_vs_decoded.png)
-
-## 9. DBC Modification
-
-![DBC Modification](screenshots/09_dbc_modification.png)
-
-## 10. Ambient Temperature Signal
-
-![Ambient Temperature](screenshots/10a_ambient_temperature.png)
-
-## 11. AI-Assisted DBC Generation
-
-![AI DBC Generation](screenshots/11_ai_dbc_generation.png)
-
-## 12. AI DBC Review
-
-![AI DBC Review](screenshots/12_ai_dbc_review.png)
-
-## 13. Overall CAN Traffic
-
-![Overall CAN Traffic](screenshots/10_overall_can_traffic.png)
