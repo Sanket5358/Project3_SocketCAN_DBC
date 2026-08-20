@@ -1,228 +1,6 @@
 
 
 
-
-
-# Project Evidence and Screenshots
-
-The following screenshots provide execution evidence for the SocketCAN communication, CAN traffic, DBC generation, DBC validation, signal decoding, visualization, DBC modification, and AI-assisted development.
-
-## 1. Virtual CAN Interface Setup
-
-<img src="https://raw.githubusercontent.com/Sanket5358/Project3_SocketCAN_DBC/main/screenshots/1_vcan0_setup.png" alt="Virtual CAN Interface Setup" width="900">
-
-## 2. Project Build
-
-<img src="https://raw.githubusercontent.com/Sanket5358/Project3_SocketCAN_DBC/main/screenshots/2_project_build.png" alt="Project Build" width="900">
-
-## 3. CAN Transmitter
-
-<img src="https://raw.githubusercontent.com/Sanket5358/Project3_SocketCAN_DBC/main/screenshots/3_can_transmitter.png" alt="CAN Transmitter" width="900">
-
-## 4. Raw CAN Traffic
-
-<img src="https://raw.githubusercontent.com/Sanket5358/Project3_SocketCAN_DBC/main/screenshots/08a_raw_vs_decoded.png" alt="Raw CAN Traffic" width="900">
-
-## 5. DBC File
-
-<img src="https://raw.githubusercontent.com/Sanket5358/Project3_SocketCAN_DBC/main/screenshots/5_dbc_file.png" alt="DBC File" width="900">
-
-## 6. DBC Validation
-
-<img src="https://raw.githubusercontent.com/Sanket5358/Project3_SocketCAN_DBC/main/screenshots/6_dbc_validation.png" alt="DBC Validation" width="900">
-
-## 7. DBC Decoded Dashboard
-
-<img src="https://raw.githubusercontent.com/Sanket5358/Project3_SocketCAN_DBC/main/screenshots/7_dashboard.png" alt="DBC Decoded Dashboard" width="900">
-
-## 8. Raw CAN vs Decoded Data
-
-<img src="https://raw.githubusercontent.com/Sanket5358/Project3_SocketCAN_DBC/main/screenshots/08_raw_vs_decoded.png" alt="Raw CAN vs Decoded Data" width="900">
-
-## 9. DBC Modification
-
-<img src="https://raw.githubusercontent.com/Sanket5358/Project3_SocketCAN_DBC/main/screenshots/09_dbc_modification.png" alt="DBC Modification" width="900">
-
-## 10. Ambient Temperature Signal
-
-<img src="https://raw.githubusercontent.com/Sanket5358/Project3_SocketCAN_DBC/main/screenshots/10a_ambient_temperature.png" alt="Ambient Temperature Signal" width="900">
-
-## 11. AI-Assisted DBC Generation
-
-<img src="https://raw.githubusercontent.com/Sanket5358/Project3_SocketCAN_DBC/main/screenshots/11_ai_dbc_generation.png" alt="AI-Assisted DBC Generation" width="900">
-
-## 12. AI DBC Review
-
-<img src="https://raw.githubusercontent.com/Sanket5358/Project3_SocketCAN_DBC/main/screenshots/12_ai_dbc_review.png" alt="AI DBC Review" width="900">
-
-## 13. Overall CAN Traffic
-
-<img src="https://raw.githubusercontent.com/Sanket5358/Project3_SocketCAN_DBC/main/screenshots/10_overall_can_traffic.png" alt="Overall CAN Traffic" width="900">
-
-Very important
-
-Do not paste the screenshot section inside:
-
-```text
-...
-```
-
-And don't put spaces before:
-
-## 1. Virtual CAN Interface Setup
-
-or:
-
-<img src="...">
-
-Test before committing
-
-On GitHub's Edit README page, click Preview.
-
-You should see:
-
-1. Virtual CAN Interface Setup
-
-followed by the actual terminal screenshot.
-
-I verified that the underlying 7_dashboard.png itself is valid and publicly accessible, so the image file is not the problem.
-
-The problem is definitely the README formatting/indentation.
-
-create like battery project readme so screenshots seen 
-
-Yes. I checked your live GitHub README, and now the exact problem is confirmed.
-The real problem
-
-From around line 212 onward, your README content has 4 spaces before every line. GitHub therefore treats almost the entire remaining README as a code block.
-
-For example, GitHub is currently interpreting this:
-
-    ## 35. Project Evidence and Screenshots
-    <img src="...">
-
-as code instead of:
-
-## 35. Project Evidence and Screenshots
-
-![...](screenshots/...)
-
-That's why your images don't render. The PNG files themselves are already on GitHub.
-Best solution
-
-Let's make the README exactly like your Battery Monitoring project:
-
-    Normal Markdown headings
-
-    Normal paragraphs
-
-    Normal tables
-
-    Normal code blocks
-
-    Relative image paths
-
-    No HTML <img>
-
-    No raw GitHub URLs
-
-    No indentation before headings/images
-
-    Screenshots directly displayed in README
-
-For example:
-
-## 1. Virtual CAN Interface Setup
-
-![vCAN0 Setup](screenshots/1_vcan0_setup.png)
-
-This is the cleanest approach.
-Screenshot section you should use
-
-# Project Evidence and Screenshots
-
-The following screenshots provide execution evidence for the SocketCAN communication, CAN traffic, DBC generation, DBC validation, signal decoding, visualization, DBC modification, Ambient Temperature addition, and AI-assisted development.
-
-## 1. Virtual CAN Interface Setup
-
-![vCAN0 Setup](screenshots/1_vcan0_setup.png)
-
-## 2. Project Build
-
-![Project Build](screenshots/2_project_build.png)
-
-## 3. CAN Transmitter
-
-![CAN Transmitter](screenshots/3_can_transmitter.png)
-
-## 4. Raw CAN Traffic
-
-![Raw CAN Traffic](screenshots/08a_raw_vs_decoded.png)
-
-## 5. DBC File
-
-![DBC File](screenshots/5_dbc_file.png)
-
-## 6. DBC Validation
-
-![DBC Validation](screenshots/6_dbc_validation.png)
-
-## 7. DBC Decoded Dashboard
-
-![Dashboard](screenshots/7_dashboard.png)
-
-## 8. Raw CAN vs Decoded Data
-
-![Raw vs Decoded](screenshots/08_raw_vs_decoded.png)
-
-## 9. DBC Modification
-
-![DBC Modification](screenshots/09_dbc_modification.png)
-
-## 10. Ambient Temperature Signal
-
-![Ambient Temperature](screenshots/10a_ambient_temperature.png)
-
-## 11. AI-Assisted DBC Generation
-
-![AI DBC Generation](screenshots/11_ai_dbc_generation.png)
-
-## 12. AI DBC Review
-
-![AI DBC Review](screenshots/12_ai_dbc_review.png)
-
-## 13. Overall CAN Traffic
-
-![Overall CAN Traffic](screenshots/10_overall_can_traffic.png)
-
-But don't just replace the screenshot section
-
-Your whole README needs cleaning, because the indentation problem starts much earlier. The live README currently shows lines such as 2. Problem Statement, 3. Objectives, etc. as part of the indented block.
-I recommend this exact approach
-
-On your Ubuntu terminal:
-
-cd ~/Project3_SocketCAN_DBC
-nano README.md
-
-Then replace the entire README with a clean version rather than trying to repair hundreds of individual lines.
-
-I can give you the complete final README in one single code block, structured exactly like your Battery Monitoring README, with all your Project 3 content and the 13 screenshots using:
-
-![Screenshot](screenshots/filename.png)
-
-That is the version I recommend you paste into nano README.md.
-
-give all readme file so i can copy paste as it is on github readme and seen large images on readme file
-
-Yes. Below is a complete clean README.md. It uses the same simple Markdown image style as your Battery Monitoring project:
-
-![Image](screenshots/filename.png)
-
-This is preferable here because your screenshot files are already inside the repository's screenshots/ folder.
-
-Important: Copy everything inside the single code block and replace your entire GitHub README.md. Do not add indentation before #, ##, or ![.
-
 # AI-Assisted DBC Generation and CAN Data Visualization Using SocketCAN
 
 A Linux-based automotive CAN communication project demonstrating how raw CAN frames can be transformed into meaningful engineering values using a DBC (CAN Database).
@@ -2477,6 +2255,84 @@ cantools
 Python
 +
 AI Assistance
+
+# Project Evidence and Screenshots
+
+The following screenshots provide execution evidence for the SocketCAN communication, CAN traffic, DBC generation, DBC validation, signal decoding, visualization, DBC modification, Ambient Temperature addition, and AI-assisted development.
+
+## 1. Virtual CAN Interface Setup
+
+![vCAN0 Setup](screenshots/1_vcan0_setup.png)
+
+## 2. Project Build
+
+![Project Build](screenshots/2_project_build.png)
+
+## 3. CAN Transmitter
+
+![CAN Transmitter](screenshots/3_can_transmitter.png)
+
+## 4. Raw CAN Traffic
+
+![Raw CAN Traffic](screenshots/08a_raw_vs_decoded.png)
+
+## 5. DBC File
+
+![DBC File](screenshots/5_dbc_file.png)
+
+## 6. DBC Validation
+
+![DBC Validation](screenshots/6_dbc_validation.png)
+
+## 7. DBC Decoded Dashboard
+
+![Dashboard](screenshots/7_dashboard.png)
+
+## 8. Raw CAN vs Decoded Data
+
+![Raw vs Decoded](screenshots/08_raw_vs_decoded.png)
+
+## 9. DBC Modification
+
+![DBC Modification](screenshots/09_dbc_modification.png)
+
+## 10. Ambient Temperature Signal
+
+![Ambient Temperature](screenshots/10a_ambient_temperature.png)
+
+## 11. AI-Assisted DBC Generation
+
+![AI DBC Generation](screenshots/11_ai_dbc_generation.png)
+
+## 12. AI DBC Review
+
+![AI DBC Review](screenshots/12_ai_dbc_review.png)
+
+## 13. Overall CAN Traffic
+
+![Overall CAN Traffic](screenshots/10_overall_can_traffic.png)
+
+But don't just replace the screenshot section
+
+Your whole README needs cleaning, because the indentation problem starts much earlier. The live README currently shows lines such as 2. Problem Statement, 3. Objectives, etc. as part of the indented block.
+I recommend this exact approach
+
+On your Ubuntu terminal:
+
+cd ~/Project3_SocketCAN_DBC
+nano README.md
+
+Then replace the entire README with a clean version rather than trying to repair hundreds of individual lines.
+
+I can give you the complete final README in one single code block, structured exactly like your Battery Monitoring README, with all your Project 3 content and the 13 screenshots using:
+
+![Screenshot](screenshots/filename.png)
+
+That is the version I recommend you paste into nano README.md.
+
+give all readme file so i can copy paste as it is on github readme and seen large images on readme file
+
+Yes. Below is a complete clean README.md. It uses the same simple Markdown image style as your Battery M
 
 The final system demonstrates:
 
