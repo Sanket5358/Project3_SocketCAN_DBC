@@ -768,54 +768,54 @@ The following screenshots provide execution evidence for the SocketCAN, DBC gene
 
 ## 1. Virtual CAN Interface Setup
 
-![vCAN0 Setup](screenshots/1_vcan0_setup.png)
+<img src="https://raw.githubusercontent.com/Sanket5358/Project3_SocketCAN_DBC/main/screenshots/1_vcan0_setup.png" alt="vCAN0 Setup" width="900">
 
 ## 2. Project Build
 
-![Project Build](screenshots/2_project_build.png)
+<img src="https://raw.githubusercontent.com/Sanket5358/Project3_SocketCAN_DBC/main/screenshots/2_project_build.png" alt="Project Build" width="900">
 
 ## 3. CAN Transmitter
 
-![CAN Transmitter](screenshots/3_can_transmitter.png)
+<img src="https://raw.githubusercontent.com/Sanket5358/Project3_SocketCAN_DBC/main/screenshots/3_can_transmitter.png" alt="CAN Transmitter" width="900">
 
 ## 4. Raw CAN Traffic
 
-![Raw CAN Traffic](screenshots/08a_raw_vs_decoded.png)
+<img src="https://raw.githubusercontent.com/Sanket5358/Project3_SocketCAN_DBC/main/screenshots/08a_raw_vs_decoded.png" alt="Raw CAN Traffic" width="900">
 
 ## 5. DBC File
 
-![DBC File](screenshots/5_dbc_file.png)
+<img src="https://raw.githubusercontent.com/Sanket5358/Project3_SocketCAN_DBC/main/screenshots/5_dbc_file.png" alt="DBC File" width="900">
 
 ## 6. DBC Validation
 
-![DBC Validation](screenshots/6_dbc_validation.png)
+<img src="https://raw.githubusercontent.com/Sanket5358/Project3_SocketCAN_DBC/main/screenshots/6_dbc_validation.png" alt="DBC Validation" width="900">
 
 ## 7. DBC Decoded Dashboard
 
-![Dashboard](screenshots/7_dashboard.png)
+<img src="https://raw.githubusercontent.com/Sanket5358/Project3_SocketCAN_DBC/main/screenshots/7_dashboard.png" alt="DBC Decoded Dashboard" width="900">
 
 ## 8. Raw CAN vs Decoded Data
 
-![Raw vs Decoded](screenshots/08_raw_vs_decoded.png)
+<img src="https://raw.githubusercontent.com/Sanket5358/Project3_SocketCAN_DBC/main/screenshots/08_raw_vs_decoded.png" alt="Raw CAN vs Decoded Data" width="900">
 
 ## 9. DBC Modification
 
-![DBC Modification](screenshots/09_dbc_modification.png)
+<img src="https://raw.githubusercontent.com/Sanket5358/Project3_SocketCAN_DBC/main/screenshots/09_dbc_modification.png" alt="DBC Modification" width="900">
 
 ## 10. Ambient Temperature Signal
 
-![Ambient Temperature](screenshots/10a_ambient_temperature.png)
+<img src="https://raw.githubusercontent.com/Sanket5358/Project3_SocketCAN_DBC/main/screenshots/10a_ambient_temperature.png" alt="Ambient Temperature Signal" width="900">
 
 ## 11. AI-Assisted DBC Generation
 
-![AI DBC Generation](screenshots/11_ai_dbc_generation.png)
+<img src="https://raw.githubusercontent.com/Sanket5358/Project3_SocketCAN_DBC/main/screenshots/11_ai_dbc_generation.png" alt="AI-Assisted DBC Generation" width="900">
 
 ## 12. AI DBC Review
 
-![AI DBC Review](screenshots/12_ai_dbc_review.png)
+<img src="https://raw.githubusercontent.com/Sanket5358/Project3_SocketCAN_DBC/main/screenshots/12_ai_dbc_review.png" alt="AI DBC Review" width="900">
 
 ## 13. Overall CAN Traffic
 
-![Overall CAN Traffic](screenshots/10_overall_can_traffic.png)
+<img src="https://raw.githubusercontent.com/Sanket5358/Project3_SocketCAN_DBC/main/screenshots/10_overall_can_traffic.png" alt="Overall CAN Traffic" width="900">
 
 ---
