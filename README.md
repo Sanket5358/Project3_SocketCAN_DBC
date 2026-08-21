@@ -829,7 +829,7 @@ Electronics and Telecommunication Engineering
 
 Project: AI-Assisted DBC Generation and CAN Data Visualization Using SocketCAN
 
-The transmitter continuously sends CAN messages.
+
 
 
 
